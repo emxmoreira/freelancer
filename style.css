@@ -1,0 +1,59 @@
+.conteiner {
+  display: flex;
+  width: 1500px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 35px;
+}
+
+.right, .left {
+    width: 50%;
+    font-size: 18px;
+    
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+   gap: 30px;
+
+}
+
+.left{
+    gap: 30px;
+    align-items: center;
+    display: flex;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+    transition: 0.3s;
+}
+
+button{
+    color: white;
+    background-color: rgb(197, 28, 197);
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    height: 35px;
+    
+ 
+    
+ 
+   
+}
+   
+
+
+
+
+
